@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/head"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+
+
+        android:layout_width="372dp"
+        android:layout_height="681dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imagen_tienda"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:contentDescription="@string/content_description_media"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/user"
+            android:layout_marginBottom="40dp"/>
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/contrasena"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/contrasenaConfirmacion"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirmar Contraseña"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+
+            android:layout_marginTop="80dp"
+            android:id="@+id/IniciarSesionBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:onClick="registrarUsuario"
+            android:text="@string/btn_registarse"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:backgroundTint="@color/principal"
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

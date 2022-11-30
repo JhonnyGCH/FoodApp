@@ -3,9 +3,12 @@
     <string name="msgUsuario">Usuario</string>
     <string name="msgClave">Contraseña</string>
     <string name="butIniciar">Inicio</string>
-    <string name="texNoUsuario">¿Sin una cuenta aún? </string>
+    <string name="texNoUsuario">¿Sin una cuenta aún? ,</string>
     <string name="texCrearusuario">Registrate</string>
-    <string name="texPerdioClave">¿Se te olvidó? </string>
+    <string name="texPerdioClave">¿Se te olvidó?</string>
     <string name="texRecuperarClave">Recuperar cuenta</string>
+
     <string name="content_description_media">user image</string>
+    <string name="btn_registarse">Registrarse</string>
+
 </resources>

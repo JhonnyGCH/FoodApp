@@ -1,13 +1,15 @@
 package com.example.footapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 
@@ -17,20 +19,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
-        getSupportActionBar()?.hide(); // hide the title bar
-        this.getWindow().setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
+
+        getSupportActionBar()!!.hide(); // hide the title bar
+
         setContentView(R.layout.activity_main);
         setContentView(R.layout.activity_main)
         auth = FirebaseAuth.getInstance();
         val usuario = findViewById<TextInputEditText>(R.id.usuario)
         val clave = findViewById<TextInputEditText>(R.id.clave)
         val iniciar = findViewById<Button>(R.id.iniciar)
+        val registrarse = findViewById<TextView>(R.id.registrar)
         iniciar.setOnClickListener(){
             signIn(usuario.text.toString(), clave.text.toString())
         }
+        registrarse.setOnClickListener(){
+            irRegistrarse()
+        }
+
     }
     public override fun onStart() {
         super.onStart()
@@ -40,6 +45,12 @@ class MainActivity : AppCompatActivity() {
 //            reload();
         }
     }
+
+    fun irRegistrarse() {
+        val i = Intent(this, RegistrarActivity::class.java)
+        startActivity(i)
+    }
+
 
     private fun signIn(email:String, password:String){
         val TAG : String = "MainActivity"
@@ -66,4 +77,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
     }
+
+
+
 }
