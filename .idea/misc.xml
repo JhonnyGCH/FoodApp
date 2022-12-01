@@ -9,8 +9,12 @@
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/gps.xml" value="0.201" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1215" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/imagenrestaurante_background.xml" value="0.1215" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_carta.xml" value="0.2" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_info_restaurante.xml" value="0.33" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_home_bares.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_home_restaurant.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_info_bares.xml" value="0.33" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_info_restaurante.xml" value="0.25" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_registrar.xml" value="0.25" />
       </map>
