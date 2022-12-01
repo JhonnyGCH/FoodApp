@@ -10,6 +10,7 @@
 
     <string name="content_description_media">user image</string>
     <string name="btn_registarse">Registrarse</string>
+<<<<<<< Updated upstream
     <string name="text_restaurant">Restaurantes</string>
     <string name="text_restaurant2">Restaurante Chill</string>
     <string name="text_bar">Bares</string>
@@ -19,6 +20,20 @@
     <string name="textBar">Bares y Bebidas</string>
     <string name="textRest">Restaurantes</string>
     <string name="nomore">Vaya parece que no hay mucho por ver ahora :(</string>
+=======
+    <string name="nombre_restaurante">Restaurante Chill</string>
+    <string name="direccion_nombre">Av 16 # 19-65 B.Florez Cúcuta , Colombia</string>
+    <string name="categoria1_rest">Tematico</string>
+    <string name="categoria2_rest">Gourmet</string>
+    <string name="categoria3_rest">Familiar</string>
+    <string name="infoRestuarante">Informacion del restaurante</string>
+    <string name="descripcionRestaurante">Este lugar te ofrece unos precios adecuados por unas comidas deliciosas. Una decoración cuidada y su ambiente moderno ayudan a sus clientes a sentirse relajados.</string>
+    <string name="disponibilidad">Disponibilidad</string>
+
+    <string name="horario1_rest">5:30 Pm</string>
+    <string name="horario2_rest">8:00 Pm</string>
+    <string name="horario3_rest">9:30 Pm</string>
+>>>>>>> Stashed changes
 
 
 </resources>
