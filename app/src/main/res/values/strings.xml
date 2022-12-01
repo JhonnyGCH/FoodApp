@@ -7,4 +7,5 @@
     <string name="texCrearusuario">Registrate</string>
     <string name="texPerdioClave">¿Se te olvidó? </string>
     <string name="texRecuperarClave">Recuperar cuenta</string>
+    <string name="content_description_media">user image</string>
 </resources>
