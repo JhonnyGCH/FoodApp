@@ -58,41 +58,17 @@
                 android:text="@string/buscar"
                 android:textColor="@color/black"
                 />
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardRest"
                 android:layout_width="160dp"
                 android:layout_height="200dp"
                 android:backgroundTint="@color/principal"
                 app:layout_constraintTop_toBottomOf="@id/search_restaurants"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="60dp"
-                >
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintTop_toTopOf="@id/cardRest"
-                    app:srcCompat="@drawable/image_11922"
-                    />
-                <TextView
-                    android:id="@+id/Bares"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:text="@string/textBar"
-                    android:textColor="@color/white"
-                    android:textAlignment="center"
-                    android:textStyle="bold"
-                    android:layout_marginTop="120dp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardBar"
-                android:layout_width="160dp"
-                android:layout_height="200dp"
-                android:backgroundTint="@color/principal"
-                app:layout_constraintTop_toBottomOf="@id/search_restaurants"
                 app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginTop="60dp">
+                android:layout_marginTop="60dp"
+                android:clickable="true"
+                >
+
                 <ImageView
                     android:id="@+id/imgRest"
                     android:layout_width="match_parent"
@@ -112,6 +88,36 @@
                     android:textStyle="bold"
                     android:layout_marginTop="120dp"/>
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBar"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintTop_toBottomOf="@id/search_restaurants"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="60dp"
+                android:clickable="true"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="@id/cardRest"
+                    app:srcCompat="@drawable/image_11922"
+                    />
+                <TextView
+                    android:id="@+id/Bares"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/textBar"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="120dp"/>
+            </androidx.cardview.widget.CardView>
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

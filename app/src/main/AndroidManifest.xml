@@ -16,6 +16,21 @@
             android:name=".infoRestaurante"
             android:exported="false" />
         <activity
+            android:name=".Home_Restaurant"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Home_Bares"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
             android:name=".RegistrarActivity"
             android:exported="false" />
         <activity
@@ -25,7 +40,6 @@
             android:name=".itemsCarta.CartaAdapter"
             android:exported="false" />
         <activity
-
             android:name=".HomeActivity"
             android:exported="false" >
             <meta-data

@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         val usuario = findViewById<TextInputEditText>(R.id.usuario)
         val clave = findViewById<TextInputEditText>(R.id.clave)
         val iniciar = findViewById<Button>(R.id.iniciar)
-        val carta = findViewById<Button>(R.id.carta)
+
         val registrarse = findViewById<TextView>(R.id.registrar)
         iniciar.setOnClickListener(){
             signIn(usuario.text.toString(), clave.text.toString())
@@ -40,9 +40,7 @@ class MainActivity : AppCompatActivity() {
         registrarse.setOnClickListener(){
             irRegistrarse()
         }
-        registrarse.setOnClickListener(){
-            irCarta()
-        }
+
 
     }
     public override fun onStart() {

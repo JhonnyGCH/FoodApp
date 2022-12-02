@@ -15,7 +15,11 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            app:srcCompat="@drawable/head"/>
+            android:src="@drawable/head"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scaleType="fitXY"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cons_restaurant"

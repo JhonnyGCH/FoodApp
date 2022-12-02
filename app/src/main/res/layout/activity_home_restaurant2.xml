@@ -15,11 +15,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:src="@drawable/head"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:scaleType="fitXY"/>
+            app:srcCompat="@drawable/head"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cons_restaurant"
@@ -35,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="35dp"
-                android:text="@string/text_bar"
+                android:text="@string/text_restaurant"
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -58,19 +54,20 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/beef_burger" />
+                    app:srcCompat="@drawable/rectangle_11" />
                 <TextView
                     android:id="@+id/text_restaurant1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/text_bar2"
+                    android:text="@string/text_restaurant2"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     app:layout_constraintTop_toBottomOf="@id/img_restaurant"
                     app:layout_constraintStart_toStartOf="@id/img_restaurant"
                     android:layout_marginStart="@dimen/_20dp"
                     />
+
                 <Button
                     android:layout_width="40dp"
                     android:layout_height="@dimen/_20dp"
@@ -115,13 +112,13 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/beef_burger" />
+                    app:srcCompat="@drawable/rectangle_11" />
                 <TextView
                     android:id="@+id/text_restaurant3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/text_bar2"
+                    android:text="@string/text_restaurant2"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     app:layout_constraintTop_toBottomOf="@id/img_restaurant2"
