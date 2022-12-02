@@ -10,5 +10,10 @@
 
     <string name="content_description_media">user image</string>
     <string name="btn_registarse">Registrarse</string>
+    <string name="text_restaurant">Restaurantes</string>
+    <string name="text_restaurant2">Restaurante Chill</string>
+    <string name="text_bar">Bares</string>
+    <string name="text_bar2">Bar La Bomba</string>
+
 
 </resources>
