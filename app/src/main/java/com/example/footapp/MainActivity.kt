@@ -1,5 +1,6 @@
 package com.example.footapp
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -10,12 +11,15 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.footapp.itemsCarta.CartaActivity
+import com.example.footapp.itemsCarta.CartaAdapter
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -28,12 +32,16 @@ class MainActivity : AppCompatActivity() {
         val usuario = findViewById<TextInputEditText>(R.id.usuario)
         val clave = findViewById<TextInputEditText>(R.id.clave)
         val iniciar = findViewById<Button>(R.id.iniciar)
+        val carta = findViewById<Button>(R.id.carta)
         val registrarse = findViewById<TextView>(R.id.registrar)
         iniciar.setOnClickListener(){
             signIn(usuario.text.toString(), clave.text.toString())
         }
         registrarse.setOnClickListener(){
             irRegistrarse()
+        }
+        registrarse.setOnClickListener(){
+            irCarta()
         }
 
     }
@@ -48,6 +56,10 @@ class MainActivity : AppCompatActivity() {
 
     fun irRegistrarse() {
         val i = Intent(this, RegistrarActivity::class.java)
+        startActivity(i)
+    }
+    fun irCarta() {
+        val i = Intent(this, CartaActivity::class.java)
         startActivity(i)
     }
 

@@ -14,6 +14,11 @@
     <string name="text_restaurant2">Restaurante Chill</string>
     <string name="text_bar">Bares</string>
     <string name="text_bar2">Bar La Bomba</string>
+    <string name="texto_bienvenida">¿A dónde vamos hoy?</string>
+    <string name="buscar">Buscar</string>
+    <string name="textBar">Bares y Bebidas</string>
+    <string name="textRest">Restaurantes</string>
+    <string name="nomore">Vaya parece que no hay mucho por ver ahora :(</string>
 
 
 </resources>

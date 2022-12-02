@@ -16,6 +16,13 @@
             android:name=".RegistrarActivity"
             android:exported="false" />
         <activity
+            android:name=".itemsCarta.CartaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".itemsCarta.CartaAdapter"
+            android:exported="false" />
+        <activity
+
             android:name=".HomeActivity"
             android:exported="false">
             <meta-data
