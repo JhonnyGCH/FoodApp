@@ -83,7 +83,7 @@
                 android:textColor="@color/gray"
                 />
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardRest"
+                android:id="@+id/cardcomida1"
                 android:layout_width="90dp"
                 android:layout_height="120dp"
                 android:backgroundTint="@color/principal"
@@ -96,21 +96,53 @@
                 <ImageView
                     android:id="@+id/imgRest"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintTop_toTopOf="@id/cardRest"
-                    app:srcCompat="@drawable/image_11924"
+                    android:layout_height="90dp"
+                    app:layout_constraintTop_toTopOf="@id/cardcomida1"
+                    app:srcCompat="@drawable/rest_imagen_4"
                      />
 
                 <TextView
-                    android:id="@+id/Rest"
+                    android:id="@+id/text_comida1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:text="@string/textRest"
+                    android:text="@string/rest_nombre_4"
                     android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     android:layout_marginTop="90dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardComida2"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintTop_toBottomOf="@id/text_explora"
+                app:layout_constraintStart_toEndOf="@id/cardcomida1"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="50dp"
+                android:clickable="true"
+                >
+
+                <ImageView
+                    android:id="@+id/imgComida2"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    app:layout_constraintTop_toTopOf="@id/cardComida2"
+                    app:srcCompat="@drawable/rest_imagen_1"
+                    />
+
+                <TextView
+                    android:id="@+id/text_comida2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/rest_nombre_1"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="80dp"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -121,13 +153,14 @@
                 app:layout_constraintTop_toBottomOf="@id/text_explora"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="70dp"
+
                 android:clickable="true"
                 >
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    app:layout_constraintTop_toTopOf="@id/cardRest"
-                    app:srcCompat="@drawable/image_11922"
+                    app:layout_constraintTop_toTopOf="@id/cardcomida1"
+                    app:srcCompat="@drawable/rest_imagen_2"
 
                     />
                 <TextView
@@ -135,11 +168,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:text="@string/textBar"
+                    android:text="@string/rest_nombre_2"
                     android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     android:layout_marginTop="80dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item_1"
+                android:layout_width="142dp"
+                android:layout_height="107dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="236dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardComida2">
+
+                <ImageView
+                    android:id="@+id/rest_imagen_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/rest_imagen_2" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -149,15 +201,15 @@
                 android:layout_marginBottom="136dp"
                 android:layout_marginTop="50dp"
                 android:orientation="vertical"
-                app:layout_constraintTop_toBottomOf="@id/cardRest"
-                app:layout_constraintStart_toStartOf="@id/cardRest">
+                app:layout_constraintTop_toBottomOf="@id/cardcomida1"
+                app:layout_constraintStart_toStartOf="@id/cardcomida1">
 
 
                 <TextView
-                    android:id="@+id/rest_nombre_3"
+                    android:id="@+id/rest_nombre_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rest_nombre_3"
+                    android:text="@string/rest_nombre_2"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
