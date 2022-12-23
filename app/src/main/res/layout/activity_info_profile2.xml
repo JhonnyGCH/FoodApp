@@ -197,6 +197,9 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 tools:layout_editor_absoluteX="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="80dp"
                 tools:layout_editor_absoluteY="119dp" />
 
             <androidx.cardview.widget.CardView
@@ -204,8 +207,10 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginEnd="304dp"
+                android:layout_marginTop="170dp"
                 android:backgroundTint="@color/shadow"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteY="170dp" >
 
                 <ImageView
@@ -213,6 +218,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/icons8_mail" />
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
