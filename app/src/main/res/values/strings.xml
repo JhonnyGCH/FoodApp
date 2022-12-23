@@ -81,5 +81,10 @@
     <string name="bar_descripcion_4">Ginebra, Jagermaister,syrop de romero, zumo de limón</string>
     <string name="bar_precio_4">$13000</string>
 
+    <string name="nombre_reserva">Restaurante Chill</string>
+    <string name="spinner">dropDownMenuExample</string>
+    <string name="btn_reservar">Reservar</string>
+    <string name="reserva_hora">Hora Reservada</string>
+    <string name="reserva">" 8:00 PM"</string>
 
 </resources>
