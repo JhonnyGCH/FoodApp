@@ -24,7 +24,16 @@
             app:layout_constraintTop_toTopOf="parent"
             android:paddingTop="50dp"
             android:paddingHorizontal="20dp">
-
+            <ImageView
+                android:id="@+id/user_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/content_description_media"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user"
+                android:layout_marginTop="0dp"/>
             <TextView
                 android:id="@+id/text_welcome"
                 android:layout_width="wrap_content"
@@ -33,6 +42,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:paddingStart="20dp"
+                android:layout_marginTop="20dp"
                 android:textSize="30dp"
                 android:textStyle="bold"/>
 
