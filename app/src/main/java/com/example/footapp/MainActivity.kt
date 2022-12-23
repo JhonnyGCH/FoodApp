@@ -11,8 +11,6 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.footapp.itemsCarta.CartaActivity
-import com.example.footapp.itemsCarta.CartaAdapter
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 
@@ -56,11 +54,6 @@ class MainActivity : AppCompatActivity() {
         val i = Intent(this, RegistrarActivity::class.java)
         startActivity(i)
     }
-    fun irCarta() {
-        val i = Intent(this, CartaActivity::class.java)
-        startActivity(i)
-    }
-
 
     private fun signIn(email:String, password:String){
         val TAG : String = "MainActivity"

@@ -48,4 +48,38 @@
     <string name="horario2_bar">11:00 Pm</string>
     <string name="horario3_bar">12:30 Am</string>
 
+
+    <string name="rest_nombre_1">Ensalada Cesar</string>
+    <string name="rest_descripcion_1">Ensalada de gambas, champiñones, cilantro</string>
+    <string name="rest_precio_1">$8000</string>
+
+    <string name="rest_nombre_2">Picada Mixta</string>
+    <string name="rest_descripcion_2">Contiene pollo, champiñones, camarones y huevos</string>
+    <string name="rest_precio_2">$12000</string>
+
+    <string name="rest_nombre_3">Hamburguesa Gitana</string>
+    <string name="rest_descripcion_3">Pan blanco, carne de res, queso, tocineta, huevo, vegetales</string>
+    <string name="rest_precio_3">$22000</string>
+
+    <string name="rest_nombre_4">Salchipollo</string>
+    <string name="rest_descripcion_4">100 gr de papa a la francesa, 50 gr de salchicha y 50 gr de pollo</string>
+    <string name="rest_precio_4">$15000</string>
+
+    <string name="bar_nombre_1">Capitan Sparrow</string>
+    <string name="bar_descripcion_1">Ron dorado, brandy, ginebra</string>
+    <string name="bar_precio_1">$24000</string>
+
+    <string name="bar_nombre_2">Lego</string>
+    <string name="bar_descripcion_2">Vodka, gotas de vainilla, ron de coco, syrop</string>
+    <string name="bar_precio_2">$20000</string>
+
+    <string name="bar_nombre_3">Tequila al coco</string>
+    <string name="bar_descripcion_3">Vodka lemongras, licor de cafe, crema de leche, amaretto</string>
+    <string name="bar_precio_3">$12000</string>
+
+    <string name="bar_nombre_4">Spritz al limoncillo</string>
+    <string name="bar_descripcion_4">Ginebra, Jagermaister,syrop de romero, zumo de limón</string>
+    <string name="bar_precio_4">$13000</string>
+
+
 </resources>

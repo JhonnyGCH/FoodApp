@@ -160,6 +160,7 @@
           app:layout_constraintTop_toTopOf="parent" />
 
       <Button
+          android:id="@+id/carta"
           android:layout_width="194dp"
           android:layout_height="wrap_content"
           android:layout_marginStart="105dp"
