@@ -108,7 +108,14 @@
                 android:layout_marginTop="18dp"
                 android:backgroundTint="@color/shadow"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/item_2" />
+                app:layout_constraintTop_toBottomOf="@+id/item_2" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/_66201" />
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/item_1"
@@ -120,6 +127,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/item_4">
 
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/icons8_mensaje_de_telefono_30" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -130,7 +142,14 @@
                 android:layout_marginTop="40dp"
                 android:backgroundTint="@color/shadow"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/item_1" />
+                app:layout_constraintTop_toBottomOf="@+id/item_1" >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icons8_google_maps" />
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
