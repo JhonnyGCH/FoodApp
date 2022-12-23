@@ -86,5 +86,6 @@
     <string name="btn_reservar">Reservar</string>
     <string name="reserva_hora">Hora Reservada</string>
     <string name="reserva">" 8:00 PM"</string>
+    <string name="RESERVA">RESERVA</string>
 
 </resources>

@@ -10,6 +10,7 @@
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1215" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/imagenrestaurante_background.xml" value="0.1215" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_carta.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_carta_restaurante.xml" value="0.2" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_home_bares.xml" value="0.2" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_home_bares2.xml" value="0.2" />
@@ -19,7 +20,7 @@
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_info_restaurante.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_registrar.xml" value="0.25" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_reservar.xml" value="0.25" />
+        <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/layout/activity_reservar.xml" value="0.2" />
       </map>
     </option>
   </component>
