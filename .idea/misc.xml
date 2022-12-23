@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Daniela/Desktop/FootApp/app/src/main/res/layout/activity_carta.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Daniela/Desktop/FootApp/app/src/main/res/layout/activity_home_restaurant.xml" value="0.25" />
+        <entry key="..\:/Users/Daniela/Desktop/FootApp/app/src/main/res/layout/activity_home_restaurant2.xml" value="0.21" />
+        <entry key="..\:/Users/Daniela/Desktop/FootApp/app/src/main/res/layout/activity_info_bares.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Daniela/Desktop/FootApp/app/src/main/res/layout/activity_mis_reservas.xml" value="0.2" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1215" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/btn_regresar.xml" value="0.142" />
         <entry key="..\:/Users/USER/Documents/GitHub/FootApp/app/src/main/res/drawable/fondosuperior.xml" value="0.2075" />

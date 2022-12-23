@@ -15,7 +15,11 @@
         android:theme="@style/Theme.FootApp"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream
             android:name=".reservar"
+=======
+            android:name=".MisReservasActivity"
+>>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".infoBaresActivity"

@@ -47,6 +47,15 @@
     <string name="horario1_bar">8:30 Pm</string>
     <string name="horario2_bar">11:00 Pm</string>
     <string name="horario3_bar">12:30 Am</string>
+    <string name="RestauranteChill">Restaurante Chill</string>
+    <string name="descripcion">Mesa para dos personas, vino y pastas a la bolañesa</string>
+    <string name="fecha">24/10/2022</string>
+    <string name="RestauranteMini">Restaurante Mini</string>
+    <string name="descripcion2">Arepas colombianas y más</string>
+    <string name="fecha2">27/10/2022</string>
+    <string name="RestauranteBomba">Bar la bomba</string>
+    <string name="descripcion3">Deliciosos cocteles con la bebida alcoholica de preferencia</string>
+    <string name="fecha3">05/11/2022</string>
 
 
     <string name="rest_nombre_1">Ensalada Cesar</string>
