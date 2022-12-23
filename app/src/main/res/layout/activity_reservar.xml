@@ -143,7 +143,7 @@
             android:layout_height="55dp"
 
             android:gravity="center|center_horizontal"
-            app:layout_constraintTop_toBottomOf="@id/spinner">
+            app:layout_constraintTop_toBottomOf="@id/imagen_tienda">
 
             <EditText
                 android:id="@+id/NombreUsu"
