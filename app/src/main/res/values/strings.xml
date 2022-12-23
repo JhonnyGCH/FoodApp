@@ -96,5 +96,8 @@
     <string name="reserva_hora">Hora Reservada</string>
     <string name="reserva">" 8:00 PM"</string>
     <string name="RESERVA">RESERVA</string>
+    <string name="Explorar">Explorar</string>
+    <string name="txt_comida">¡Elijamos tu proxima comida!</string>
+    <string name="conoceproductos">¡Conoce las mejores comidas y bebidas en un solo lugar con tan solo un click!</string>
 
 </resources>
