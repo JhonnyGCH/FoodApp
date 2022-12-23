@@ -15,6 +15,13 @@
         android:theme="@style/Theme.FootApp"
         tools:targetApi="31">
         <activity
+            android:name=".infoProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ExploraActivity"
             android:exported="false">
             <meta-data
