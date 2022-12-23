@@ -97,4 +97,17 @@
     <string name="reserva">" 8:00 PM"</string>
     <string name="RESERVA">RESERVA</string>
 
+    <string name="datos">Mis datos</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="correo_info">genesisdvj@gmail.com</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="nombre_info">Génesis Daniela Vargas Jáuregui</string>
+    <string name="identificacion">100232547</string>
+    <string name="telefono">Télefono</string>
+    <string name="telefono_info">Fijo - 53223244</string>
+    <string name="telefono_info2">Personal - 313245857</string>
+    <string name="dir">Dirección</string>
+    <string name="dir1">Av 17 # 8-1</string>
+    <string name="dir2">Barrio Blanco</string>
+
 </resources>
