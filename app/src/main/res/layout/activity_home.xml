@@ -117,6 +117,17 @@
                     android:layout_marginTop="120dp"/>
             </androidx.cardview.widget.CardView>
 
+            <Button
+                android:id="@+id/explorar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="130dp"
+                android:backgroundTint="@color/shadow"
+                android:text="@string/Explorar"
+                android:textColor="@color/principal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardRest" />
 
             <TextView
                 android:layout_width="match_parent"

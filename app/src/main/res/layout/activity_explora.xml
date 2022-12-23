@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/ellipse_15"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:scaleType="fitXY"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingTop="50dp"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/text_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_comida"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingStart="20dp"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_restaurants"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="@color/shadow"
+                app:layout_constraintTop_toBottomOf="@id/text_welcome"
+                android:radius="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/search_restaurants"
+                app:layout_constraintTop_toBottomOf="@id/text_welcome"
+                android:backgroundTint="@color/shadow"
+                android:text="@string/buscar"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/text_explora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/search_restaurants"
+                android:text="@string/Explorar"
+                android:textSize="24dp"
+                android:textStyle="italic"
+
+                android:layout_marginTop="40dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/text_explora"
+                android:text="@string/conoceproductos"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/gray"
+                />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardcomida1"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintTop_toBottomOf="@id/text_explora"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="70dp"
+                android:clickable="true"
+                >
+
+                <ImageView
+                    android:id="@+id/imgRest"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    app:layout_constraintTop_toTopOf="@id/cardcomida1"
+                    app:srcCompat="@drawable/rest_imagen_4"
+                     />
+
+                <TextView
+                    android:id="@+id/text_comida1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/rest_nombre_4"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="90dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardComida2"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintTop_toBottomOf="@id/text_explora"
+                app:layout_constraintStart_toEndOf="@id/cardcomida1"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="50dp"
+                android:clickable="true"
+                >
+
+                <ImageView
+                    android:id="@+id/imgComida2"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    app:layout_constraintTop_toTopOf="@id/cardComida2"
+                    app:srcCompat="@drawable/rest_imagen_1"
+                    />
+
+                <TextView
+                    android:id="@+id/text_comida2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/rest_nombre_1"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="80dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBar"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintTop_toBottomOf="@id/text_explora"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="70dp"
+
+                android:clickable="true"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:layout_constraintTop_toTopOf="@id/cardcomida1"
+                    app:srcCompat="@drawable/rest_imagen_2"
+
+                    />
+                <TextView
+                    android:id="@+id/Bares"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/rest_nombre_2"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="80dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item_1"
+                android:layout_width="142dp"
+                android:layout_height="107dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="236dp"
+                android:backgroundTint="@color/principal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardComida2">
+
+                <ImageView
+                    android:id="@+id/rest_imagen_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/rest_imagen_2" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="229dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="142dp"
+                android:layout_marginBottom="136dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/cardcomida1"
+                app:layout_constraintStart_toStartOf="@id/cardcomida1">
+
+
+                <TextView
+                    android:id="@+id/rest_nombre_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rest_nombre_2"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rest_descripcion_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/rest_descripcion_3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/rest_precio_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="55dp"
+                    android:text="@string/rest_precio_3"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
