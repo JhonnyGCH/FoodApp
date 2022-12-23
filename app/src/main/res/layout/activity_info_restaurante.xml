@@ -273,6 +273,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/white"
+            android:onClick="@string/RESERVA"
             android:text="Reservar ->"
             android:textColor="@color/black" />
 
